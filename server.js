@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://wt.jacobasmith.com",
+    origin: "https://wt.jacobasmith.com",
   })
 );
 app.use(express.json());
